@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+} 
+#banner{
+    height: 100vh;  /* vh prend la taille de l'ecran max de la hauteur de l'ecran  */
+    background-image: url(../res/IMAGES/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  /*important */
+    background-position: center;
+    
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+#nav-logo{
+    
+    height: 60px;
+    width: auto;
+    /* padding: 10px; on utilise juste une soit height ou width pour ne pas avoir de prblm de dimension une avec dimension l'autre auto*/
+    display: inline;
+    margin-left: 64px;
+    margin-top: 0px;
+
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+.nav-items{
+    list-style: none;
+    display: inline;
+    margin-left: calc(100% - 560px) ;
+    position: relative;
+    bottom: 24.22px;
+    
+}
+.nav-item{
+    
+    display: inline;
+    margin: 0 20px;
+    
+}
